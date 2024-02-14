@@ -75,3 +75,22 @@ header h1{
     justify-content: space-around;
 }
  
+/*Nav Bar Attributes*/
+nav {
+    margin: 0;
+    height: 5%;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a::before {
+    content:'\00BB';
+    color: var(--font_color);
+}
