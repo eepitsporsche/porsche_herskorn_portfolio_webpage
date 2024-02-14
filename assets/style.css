@@ -132,6 +132,84 @@ p::selection {
 }
 
 
+/*Project Cards Attributes*/
+#Projects {
+    padding-left: 2%;
+    color: var(--secondary_color);
+    font-weight: initial;
+    font-size: 30px;
+    border-bottom: 1px solid var(--secondary_color);
+}
+
+.projects_header {
+    position: absolute;
+    top: -5%;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project_cards h3 {
+    margin: 0;
+    background-color: var(--secondary_color);
+    padding: 5px;
+    width: 60%;
+    text-align: center;
+    font-weight: initial;
+}
+
+.project_cards img {
+    margin: 7% 0 0 5%;
+    padding: 5px 2.5px 5px 2.5px;
+    width: 90%;
+    border-radius: 3%;
+}
+
+#preworkstudyguide {
+    position: relative;
+    margin: 10% 0 0 20%;
+    background-color: var(--base_color);
+    border: 3px solid var(--secondary_color);
+    box-shadow: 5px 5px 5px var(--font_color), 10px 10px 5px var(--secondary_color);
+    width: 58%;
+}
+
+#preworkstudyguide h3 {
+    width: 30%;
+}
+
+#preworkstudyguide img {
+    margin: 0% 0% 0% 2.5%;
+    padding: 5% 0.5% 3% 0.5%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_project_cards * {
+    display: inline-block;
+}
+
+#seo_rework {
+    position: relative;
+    width: 26%;
+    margin: 8% 0 0 21%;
+    background-color: var(--base_color);
+    border: 3px solid var(--secondary_color);
+    box-shadow: 5px 5px 5px var(--font_color), 10px 10px 5px var(--secondary_color);
+}
+
+#mini_project {
+    position: relative;
+    width: 26%;
+    margin: 8% 0 0 5%;
+    background-color: var(--base_color);
+    border: 3px solid var(--secondary_color);
+    box-shadow: 5px 5px 5px var(--font_color), 10px 10px 5px var(--secondary_color);
+}
+
+
 /*Contact/Footer Attributes*/
 footer {
     text-align: center;
