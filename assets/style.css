@@ -223,3 +223,55 @@ footer {
     font-size: 20px;
     font-weight: 100;
 }
+
+
+
+/*Media Queries*/
+
+/*tablets*/
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 27px;    
+    }
+
+    .bio_photo {
+        width: 40%;
+    }
+
+    .bio {
+        margin-left: 43%;
+    }
+
+    .project_cards h3 {
+        font-size: 10px;
+    }
+}
+
+/*phones*/
+@media screen and (max-width: 420px) {
+    header h1 {
+        font-size: 19px;
+    }
+
+    .bio_photo {
+        width: 50%;
+    }
+
+    .bio {
+        margin-left: 60%;
+    }
+
+    .bio p {
+        font-size: 10px;
+    }
+
+    .project_cards, #preworkstudyguide {
+        width: 75%;
+        margin-left: 15%;
+    }
+
+    .project_cards h3 {
+
+        font-size: 7px;
+    }
+}
