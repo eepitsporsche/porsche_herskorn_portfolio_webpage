@@ -249,12 +249,26 @@ footer {
     .project_cards h3 {
         font-size: 10px;
     }
+
+    #projects_header_subtitle {
+        font-size: 7px;
+    }
+
 }
 
 /*phones*/
 @media screen and (max-width: 420px) {
     header h1 {
         font-size: 19px;
+    }
+
+    nav {
+        padding-bottom: 30%;
+        text-align: end;
+    }
+
+    nav a{
+        width: 100%;
     }
 
     .bio_photo {
@@ -278,4 +292,9 @@ footer {
 
         font-size: 7px;
     }
+
+    #projects_header_subtitle {
+        font-size: 5px;
+    }
+
 }
