@@ -84,7 +84,6 @@ nav {
     height: 5%;
     width: 100%;
     display: flex;
-    flex-direction: row-reverse;
     list-style: none;
     font-size: 20px;
     font-weight: 100;
@@ -202,9 +201,14 @@ p::selection {
     font-weight: initial;
 }
 
+#projects_header_subtitle {
+    font-size: 15px;
+    font-weight: 100;
+}
+
 .project_cards img {
     margin: 7% 0 0 5%;
-    padding: 5px 2.5px 10px 2.5px;
+    padding: 23px 2.5px 21px 2.5px;
     width: 90%;
     border-radius: 3%;
 }
