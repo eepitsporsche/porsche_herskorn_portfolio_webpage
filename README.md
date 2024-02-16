@@ -13,7 +13,7 @@ N/A
 ## Usage
 
 Opening the [Portfolio Webpage for Porsche Herskorn](https://eepitsporsche.github.io/porsche_herskorn_portfolio_webpage/) on a desktop presents some pseudo-class elements like hover effects for linked pages and highlighted text effects in the "About Me" section.
-Adjusting the screen size to a width of >768px and >420px produces changes to the elements on the page to support better ease of viewing on smaller devices.
+Adjusting the screen size to a width of <768px and <420px produces changes to the elements on the page to support better ease of viewing on smaller devices.
 
 ![Portfolio Webpage for Porsche Herskorn](./assets/images/porsche_herskorn_portfolio_webpage.png)
 
