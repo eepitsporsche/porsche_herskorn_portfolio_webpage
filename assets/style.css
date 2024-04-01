@@ -184,6 +184,7 @@ p::selection {
 }
 
 .projects_header {
+    z-index: 1;
     position: absolute;
     top: -5%;
     left: 0;
@@ -211,6 +212,11 @@ p::selection {
     padding: 23px 2.5px 21px 2.5px;
     width: 90%;
     border-radius: 3%;
+    opacity: 0.95;
+}
+
+.project_cards img:hover {
+    opacity: 1;
 }
 
 
